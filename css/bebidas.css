@@ -106,6 +106,7 @@ article.container-xl {
     flex: 1 1 calc(50% - 40px); /* 2 por fila en celulares grandes */
     max-width: 48%;
   }
+  /* centrar */
   article.container-xl {
     margin-inline: auto;
   }
