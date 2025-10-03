@@ -324,7 +324,7 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
 .sidebar-right {
   position: fixed;
   top: 330px;
-  right: 0; /* pega al lado derecho */
+  right: 0px; /* pega al lado derecho */
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px 0 0 10px;
   padding: 10px;
@@ -368,9 +368,21 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
 /* Celulares pequeños (<576px) */
 @media (max-width: 575.98px) {
     .hero-image-wrapper {
-        width: 75vw;  /* ocupa más ancho en celulares */
+        width: 65vw;  /* ocupa más ancho en celulares */
         flex-direction: column; /* si hay contenido dentro, lo acomoda vertical */
+        display:flex;
+        align-items: center;
     }
+    .sidebar-right {
+  position: fixed;
+  top: 330px;
+  right: 0px; /* pega al lado derecho */
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  z-index: 9999;
+}
+    
 }
 
 /* Tablets (≥576px y <992px) */
@@ -378,13 +390,16 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
     .hero-image-wrapper {
         width: 75vw; /* un poco más chico que en celular */
         flex-direction: row; /* mantiene horizontal */
+        display: flex;
+        align-items: center;
     }
 }
 
 /* PC (≥992px) */
 @media (min-width: 992px) {
     .hero-image-wrapper {
-        width: 65vw; /* ancho original */
-        flex-direction: row;
+        width: 85vw; /* ancho original */
+        flex-direction: column;
+        
     }
 }
