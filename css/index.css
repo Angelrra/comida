@@ -368,7 +368,7 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
 /* Celulares pequeños (<576px) */
 @media (max-width: 575.98px) {
     .hero-image-wrapper {
-        width: 90vw;  /* ocupa más ancho en celulares */
+        width: 75vw;  /* ocupa más ancho en celulares */
         flex-direction: column; /* si hay contenido dentro, lo acomoda vertical */
     }
 }
