@@ -371,6 +371,7 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
         width: 65vw;  /* ocupa más ancho en celulares */
         flex-direction: column; /* si hay contenido dentro, lo acomoda vertical */
         display:flex;
+        margin-left:0px;
         align-items: center;
         justify-content: center;
         object-fit: cover;
