@@ -82,13 +82,19 @@ a{
 
 
 /* 🔹 Cards responsivas */
-@media (min-width: 576px) 
+@media (min-width: 768px) 
 {
 article.container-xl {
   flex-wrap: wrap; /* permite que bajen si no entran */
   gap: 10px;       /* espacio entre cards */
-  margin-left: 20px;
+  
 }
+   .footer-wrapper {
+    flex-direction: row; /* en tablet/PC vuelve horizontal */
+    justify-content: space-between;
+    text-align: left;
+  }
+
 }
 .card {
   flex: 1 1 calc(100% - 40px); /* por defecto ocupa todo */
@@ -121,9 +127,5 @@ article.container-xl {
 }
 
 @media (min-width: 768px) {
-  .footer-wrapper {
-    flex-direction: row; /* en tablet/PC vuelve horizontal */
-    justify-content: space-between;
-    text-align: left;
-  }
+ 
 }
