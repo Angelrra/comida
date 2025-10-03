@@ -117,6 +117,7 @@ article.container-xl {
   flex-direction: column;
   text-align: center;
   gap: 20px;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
