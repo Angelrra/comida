@@ -370,7 +370,7 @@ header .nav-item .nav-link, footer .footer-wrapper ul li {
     .hero-image-wrapper {
         width: 65vw;  /* ocupa más ancho en celulares */
         flex-direction: column; /* si hay contenido dentro, lo acomoda vertical */
-        display:flex;
+        text-align: left;
         margin-left:0px;
         align-items: center;
         justify-content: center;
